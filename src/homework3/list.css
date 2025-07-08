@@ -1,0 +1,29 @@
+.list-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-container li {
+ display: flex;              /* Добавляем Flexbox */
+  justify-content: space-between; /* Распределение между текстом и кнопкой */
+  align-items: center;        /* Выравниваем по вертикали */
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.list-container button {
+  margin-left: 15px;
+  padding: 6px 12px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
