@@ -7,7 +7,7 @@ import Rating from './homework3/rating';
 import List from './homework3/list';
 
 import Homework4CityCards from './homework4/Homework4CityCards';
-
+import Homework4MatQuiz from './homework4_1/Homework4MatQuiz';
 
 function App() {
   const [activeHomework, setActiveHomework] = useState('homework3');
@@ -27,6 +27,8 @@ function App() {
   );
    case 'homework4':
         return <Homework4CityCards />;
+   case 'homework4_1':
+      return <Homework4MatQuiz />;
       default:
         return <p>Выберите домашнее задание</p>;
     }
@@ -43,8 +45,9 @@ return (
         onChange={(e) => setActiveHomework(e.target.value)}
          className="homework-select"
       >
-        <option value="homework3">homework3</option>
-        <option value="homework4">homework4</option>
+        <option value="homework3">homework 3</option>
+        <option value="homework4">homework 4 City Cards</option>
+        <option value="homework4_1">homework 4.1 Math Quiz</option>
       </select>
 
       {renderHomework()}
