@@ -1,0 +1,53 @@
+.city-card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #f5f7fa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  font-family: Arial, sans-serif;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+.city-card:hover {
+  transform: translateY(-5px);
+}
+.city-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+    color: #43607d;
+}
+
+.city-description {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #4d4d4d;
+}
+
+.city-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.city-facts {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  color: #333;
+}
+
+.city-fact-item {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.no-selection {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 20px;
+}

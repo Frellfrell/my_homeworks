@@ -1,0 +1,58 @@
+.city-selector-container {
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.city-selector {
+  width: 260px;
+  padding: 10px 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  background: linear-gradient(135deg, #f0f4ff, #d9e4ff);
+  border: 3px solid transparent;
+  border-radius: 12px;
+  text-align: center;
+  
+  box-shadow: 0 2px 8px rgba(65, 105, 225, 0.3);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  outline: none;
+   
+  appearance: none;
+
+ /* Стилизация стрелки */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 8 10 12 14 8'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 12px 12px;
+}
+/* Градиентная рамка при фокусе */
+.city-selector:focus {
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(90deg, #4a90e2, #2f80ed);
+  box-shadow: 0 0 12px rgba(47, 128, 237, 0.7);
+}
+
+/* Стиль стрелочки для select */
+.city-selector::-ms-expand {
+  display: none;
+}
+
+
+/* Опции выпадающего списка */
+.city-selector option {
+  padding: 8px;
+  font-size: 1rem;
+  color: #444;
+  background: #f0f4ff;
+}
+
+/* При наведении */
+.city-selector option:hover {
+  background-color: #c7d5ff;
+}
