@@ -8,11 +8,13 @@ import List from './homework3/list';
 
 import Homework4CityCards from './homework4/Homework4CityCards';
 import Homework4MatQuiz from './homework4_1/Homework4MatQuiz';
+import CoolJob from './homework5/CoolJob';
+import Hw5Spotifycard from './homework5_1/Hw5Spotifycard';
 
 function App() {
   const [activeHomework, setActiveHomework] = useState('homework3');
 
-  const renderHomework = () => {
+  const renderHomework = () => { // функция рендерит домашки
     switch (activeHomework) {
       case 'homework3':
   return (
@@ -29,8 +31,13 @@ function App() {
         return <Homework4CityCards />;
    case 'homework4_1':
       return <Homework4MatQuiz />;
+    case 'homework5_cooljob':
+      return <CoolJob />;  
+    case 'homework5_1':
+      return <Hw5Spotifycard />;
       default:
         return <p>Выберите домашнее задание</p>;
+       
     }
   };
 
@@ -39,7 +46,7 @@ return (
       <label htmlFor="homework-select" className="homework-label">
         Выберите домашнее задание:
       </label>
-      <select
+      <select /*выбираем домашнее задание*/
         id="homework-select"
         value={activeHomework}
         onChange={(e) => setActiveHomework(e.target.value)}
@@ -48,6 +55,8 @@ return (
         <option value="homework3">homework 3</option>
         <option value="homework4">homework 4 City Cards</option>
         <option value="homework4_1">homework 4.1 Math Quiz</option>
+        <option value="homework5_cooljob">homework 5 CoolJob</option>
+        <option value="homework5_1">homework 5.1 Spotify Card</option>
       </select>
 
       {renderHomework()}

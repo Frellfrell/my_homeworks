@@ -1,0 +1,55 @@
+.container {
+  padding: 0 100px;
+  margin-top: 0;
+   background-color: #E4F2FF;
+    padding-bottom: 120px; /* резерв под VacancyCardList */
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 107px;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+}
+
+.grid {
+ 
+  width: 1720px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  row-gap: 35px;
+ 
+}
+
+.card {
+  width: 245.7px;
+  height: 190px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+   justify-content: center; /* по вертикали по центру */
+  align-items: flex-start; /* по левому краю */
+  gap: 16px;
+}
+
+.image {
+  width: 29px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+}
+

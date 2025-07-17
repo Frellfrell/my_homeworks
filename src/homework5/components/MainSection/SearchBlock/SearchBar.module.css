@@ -1,0 +1,38 @@
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 1132px;
+  height: 105px;
+  border-radius: 12px;
+  padding: 0 0 0 40px;
+  gap: 40px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 28.3px;
+  height: 22.9px;
+}
+
+.label {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}

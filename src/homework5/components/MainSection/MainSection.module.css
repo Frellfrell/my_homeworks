@@ -1,0 +1,18 @@
+.main-section {
+
+ padding: 130px 100px 290px;
+ background-image: url("../../assets/rectangle_12.png");
+ background-repeat: no-repeat;
+ background-position: right top;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.main-description {
+  font-size: 16px;
+  color: #666;
+}

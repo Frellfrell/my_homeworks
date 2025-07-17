@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ padding: 74px 5.2% 64px 5.2%;
+  background-color: white;
+  min-height: 180px;
+  flex-wrap: wrap;
+}
+
+.text {
+   font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(69, 69, 69, 0.8);
+  margin: 0;
+}
+.logos {
+  display: flex;
+  gap: 40px; /* равномерный отступ между логотипами */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logos img {
+  max-height: 30px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+

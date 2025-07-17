@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #CDE7FF;
+  padding: 30px 100px;
+  height: 104px;
+  box-sizing: border-box;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.searchBtn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1B2C3F; /* основной цвет — 27, 40, 59 */
+  text-decoration: none;
+  height: 18px;
+}
+
+.headerBtn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.headerBtn a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: none;
+  height: 18px;
+}
+
+.loginBtn {
+  background-color: white;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1B2C3F;
+  width: 65px;
+  height: 44px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.loginBtn:hover {
+  background-color: #f0f0f0;
+}

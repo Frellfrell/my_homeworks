@@ -1,0 +1,45 @@
+.searchBlock {
+  position: relative;
+  width: 100%;
+  height: 696px;
+  background-color: #CDE7FF;
+  padding: 3px 100px;
+  box-sizing: border-box;
+  overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-start; 
+   box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+  gap: 5px;
+  z-index: 2;
+  margin: 0;
+    padding: 0;
+}
+
+.title {
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 64px;
+  color: rgba(0, 0, 0, 0.85);
+  width: 628px;
+  line-height: 75px;
+  text-align: left;
+  padding: 0;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  max-width: 900px;
+  z-index: 1;
+  pointer-events: none; /* чтобы мышка не "ловила" картинку */
+}
