@@ -37,8 +37,18 @@
    justify-content: center; /* по вертикали по центру */
   align-items: flex-start; /* по левому краю */
   gap: 16px;
+   transition: background-color 0.3s;
 }
-
+.transparent {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.transparent:hover {
+  transform: translateY(-5px); /* Поднимается вверх на 5px */
+  background-color: rgba(255, 255, 255, 0.1); /* Легкий подсвет */
+  cursor: pointer;
+}
 .image {
   width: 29px;
   height: 30px;
@@ -53,3 +63,69 @@
   text-align: left;
 }
 
+@media (max-width: 1440px) {
+  .grid {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .container {
+    padding: 0 80px;
+  }
+}
+
+/* <= 1200px: планшеты */
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container {
+    padding: 0 60px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 20px;
+    row-gap: 24px;
+  }
+
+  .card {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    aspect-ratio: 1 / 1;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    width: 100%;
+    padding: 12px;
+  }
+
+}
+
+  
+ 

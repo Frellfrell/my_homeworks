@@ -55,3 +55,58 @@
 .loginBtn:hover {
   background-color: #f0f0f0;
 }
+@media (max-width: 1200px) {
+  .header {
+    padding: 20px 60px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .headerNav {
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .headerBtn {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Адаптация под <= 768px (планшеты и телефоны) */
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 20px;
+    height: auto;
+    gap: 16px;
+  }
+
+  .headerNav {
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .headerBtn {
+   justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .searchBtn,
+  .headerBtn a,
+  .loginBtn {
+    font-size: 14px;
+  }
+
+  .loginBtn {
+    width: 100%;
+    max-width: 200px;
+  }
+}

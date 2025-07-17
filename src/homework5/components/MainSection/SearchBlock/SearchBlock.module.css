@@ -1,4 +1,5 @@
 .searchBlock {
+  display: flex;
   position: relative;
   width: 100%;
   height: 696px;
@@ -42,4 +43,62 @@
   max-width: 900px;
   z-index: 1;
   pointer-events: none; /* чтобы мышка не "ловила" картинку */
+}
+@media (max-width: 1200px) {
+  .searchBlock {
+   
+    padding: 20px 60px;
+    height: auto;
+   flex-wrap: wrap;
+   justify-content: center;
+    gap: 40px;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 60px;
+    width: 100%;
+  }
+
+  .bgImage {
+    max-width: 600px;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+/* <= 768px: Планшеты */
+@media (max-width: 768px) {
+  .searchBlock {
+    padding: 20px;
+    gap: 24px;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .bgImage {
+    max-width: 400px;
+    opacity: 0.5; /* делаем менее навязчивой */
+  }
+}
+
+/* <= 480px: Смартфоны */
+@media (max-width: 480px) {
+  .searchBlock {
+    padding: 16px;
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 38px;
+    width: 100%;
+  }
+
+  .bgImage {
+    display: none; /* скрываем на совсем маленьких экранах */
+  }
 }

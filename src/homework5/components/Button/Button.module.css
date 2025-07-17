@@ -11,3 +11,28 @@
   cursor: pointer;
   border-radius: 4px;
 }
+@media (max-width: 1200px) {
+  .customButton {
+    padding: 30px 60px;
+    font-size: 20px;
+    width: 100%; /* чтобы не вываливалась */
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 768px) {
+  .customButton {
+    padding: 20px 40px;
+    font-size: 18px;
+    width: 100%; /* чтобы не вываливалась */
+    box-sizing: border-box;
+  }
+}
+
+/* Смартфоны (480px и ниже) */
+@media (max-width: 480px) {
+  .customButton {
+    padding: 16px 24px;
+    font-size: 16px;
+    width: 100%;
+  }
+}

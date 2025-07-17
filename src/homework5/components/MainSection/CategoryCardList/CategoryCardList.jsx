@@ -24,7 +24,7 @@ function CategoryCardList() {
     { imageSrc: Support, text: 'Support' },
     { imageSrc: Management, text: 'Management' },
     { imageSrc: Sales, text: 'Sales' },
-    { imageSrc: Arrow, text: 'Show more' }
+    { imageSrc: Arrow, text: 'Show more', transparent: true }
   ];
 
   return (
@@ -32,7 +32,7 @@ function CategoryCardList() {
       <h2 className={styles.title}>Работа <br />по категориям</h2>
       <div className={styles.grid}>
       {cards.map((card, index) => (
-        <CategoryCard key={index} imageSrc={card.imageSrc} text={card.text} />
+        <CategoryCard key={index} imageSrc={card.imageSrc} text={card.text} transparent={card.transparent} />
       ))}
     </div>
   </section>
