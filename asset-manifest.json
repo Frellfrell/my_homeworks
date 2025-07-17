@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_homeworks/static/css/main.c87e8f85.css",
-    "main.js": "/my_homeworks/static/js/main.e1a1a66c.js",
+    "main.css": "/my_homeworks/static/css/main.a418540e.css",
+    "main.js": "/my_homeworks/static/js/main.c8fcc9ba.js",
     "static/media/cocacola.svg": "/my_homeworks/static/media/cocacola.f7a5c8be35dc354a83f399c333282a43.svg",
     "static/media/disney.svg": "/my_homeworks/static/media/disney.d7ac06606201d56b82858d7c6627d76d.svg",
     "static/media/micsoft.svg": "/my_homeworks/static/media/micsoft.ae01841979d86252438cffe2b5c28bcb.svg",
@@ -9,11 +9,11 @@
     "static/media/facebook.svg": "/my_homeworks/static/media/facebook.6e4d49394cef9ab8e70d10a430ccb0a1.svg",
     "static/media/sony.svg": "/my_homeworks/static/media/sony.9c7e120de2f33f7be88921f23827c3fd.svg",
     "index.html": "/my_homeworks/index.html",
-    "main.c87e8f85.css.map": "/my_homeworks/static/css/main.c87e8f85.css.map",
-    "main.e1a1a66c.js.map": "/my_homeworks/static/js/main.e1a1a66c.js.map"
+    "main.a418540e.css.map": "/my_homeworks/static/css/main.a418540e.css.map",
+    "main.c8fcc9ba.js.map": "/my_homeworks/static/js/main.c8fcc9ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.c87e8f85.css",
-    "static/js/main.e1a1a66c.js"
+    "static/css/main.a418540e.css",
+    "static/js/main.c8fcc9ba.js"
   ]
 }
