@@ -1,0 +1,198 @@
+.footer {
+  background-color: #52606D;
+  width: 100%;
+  height: 370px;
+  padding: 56px 100px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topSection {
+  width: 100%; /* чтобы не выходило за границы */
+  max-width: 1720px;
+  height: 107px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 61px;
+}
+
+.cityList {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap; 
+}
+
+.city {
+  font-size: 22px;
+  color: #D0E8FF;
+  font-family: 'Raleway', sans-serif;
+}
+
+.divider {
+   
+  height: 2px;
+  
+  width: 100%; 
+  max-width: 1720px;
+  background-color: #465461;
+  margin: 0 auto;
+}
+
+.bottomSection {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  height: 40px;
+ 
+}
+
+.socials {
+  display: flex;
+  gap: 32px;
+  align-items: flex-end;
+  
+}
+
+.socials img {
+  height: 26px;
+  width: auto;
+  object-fit: contain;
+}
+@media (max-width: 1200px) {
+  .footer {
+    padding: 56px 60px;
+  }
+
+  .topSection,
+  .divider {
+    max-width: 100%;
+  }
+
+  .cityList {
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+  }
+  
+
+  .bottomSection {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+}
+
+/* --- До 1024px --- */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 56px 40px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .city {
+    font-size: 20px;
+  }
+
+  .bottomSection {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .socials {
+    justify-content: flex-start;
+  }
+}
+
+/* --- До 768px --- */
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 24px;
+  }
+
+  .title {
+    margin-bottom: 32px;
+    font-size: 18px;
+  }
+
+  .city {
+    font-size: 18px;
+  }
+
+  .cityList {
+    gap: 12px;
+  }
+
+  .divider {
+    margin: 32px auto;
+  }
+
+  .logo {
+    height: 32px;
+  }
+
+  .socials img {
+    height: 22px;
+  }
+}
+
+/* --- До 430px (iPhone 14 Pro Max) --- */
+@media (max-width: 430px) {
+  .footer {
+    padding: 32px 16px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .city {
+    font-size: 16px;
+  }
+
+  .cityList {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .bottomSection {
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .logo {
+    height: 28px;
+  }
+
+  .socials {
+    gap: 20px;
+  }
+
+  .socials img {
+    height: 20px;
+  }
+}
+
