@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/my_homeworks/static/css/main.a418540e.css",
-    "main.js": "/my_homeworks/static/js/main.c8fcc9ba.js",
+    "main.css": "/my_homeworks/static/css/main.89895908.css",
+    "main.js": "/my_homeworks/static/js/main.6ff175eb.js",
     "static/media/cocacola.svg": "/my_homeworks/static/media/cocacola.f7a5c8be35dc354a83f399c333282a43.svg",
     "static/media/disney.svg": "/my_homeworks/static/media/disney.d7ac06606201d56b82858d7c6627d76d.svg",
     "static/media/micsoft.svg": "/my_homeworks/static/media/micsoft.ae01841979d86252438cffe2b5c28bcb.svg",
     "static/media/rectangle_12.png": "/my_homeworks/static/media/rectangle_12.1e5a043a9d993b95a981.png",
     "static/media/facebook.svg": "/my_homeworks/static/media/facebook.6e4d49394cef9ab8e70d10a430ccb0a1.svg",
     "static/media/sony.svg": "/my_homeworks/static/media/sony.9c7e120de2f33f7be88921f23827c3fd.svg",
+    "static/media/google.svg": "/my_homeworks/static/media/google.b2524d68194cf3cb1ea55c3114218777.svg",
+    "static/media/linkedin.svg": "/my_homeworks/static/media/linkedin.a3aaf93246e36c60c07c85397d70a442.svg",
+    "static/media/twitter.svg": "/my_homeworks/static/media/twitter.2199107019945c15f13672f99d5fe777.svg",
+    "static/media/feFacebook.svg": "/my_homeworks/static/media/feFacebook.8bc50dd1dc945d2a1aa3ca68e81f8f6f.svg",
     "index.html": "/my_homeworks/index.html",
-    "main.a418540e.css.map": "/my_homeworks/static/css/main.a418540e.css.map",
-    "main.c8fcc9ba.js.map": "/my_homeworks/static/js/main.c8fcc9ba.js.map"
+    "main.89895908.css.map": "/my_homeworks/static/css/main.89895908.css.map",
+    "main.6ff175eb.js.map": "/my_homeworks/static/js/main.6ff175eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a418540e.css",
-    "static/js/main.c8fcc9ba.js"
+    "static/css/main.89895908.css",
+    "static/js/main.6ff175eb.js"
   ]
 }
