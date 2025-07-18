@@ -10,6 +10,7 @@ import Homework4CityCards from './homework4/Homework4CityCards';
 import Homework4MatQuiz from './homework4_1/Homework4MatQuiz';
 import CoolJob from './homework5/CoolJob';
 import Hw5Spotifycard from './homework5_1/Hw5Spotifycard';
+import UserProfile from './homework6/UserProfile';
 
 function App() {
   const [activeHomework, setActiveHomework] = useState('homework3');
@@ -35,6 +36,8 @@ function App() {
       return <CoolJob />;  
     case 'homework5_1':
       return <Hw5Spotifycard />;
+    case 'homework6':
+      return <UserProfile />;
       default:
         return <p>Выберите домашнее задание</p>;
        
@@ -57,6 +60,7 @@ return (
         <option value="homework4_1">homework 4.1 Math Quiz</option>
         <option value="homework5_cooljob">homework 5 CoolJob</option>
         <option value="homework5_1">homework 5.1 Spotify Card</option>
+        <option value="homework6">homework 6 User Profile</option>
       </select>
 
       {renderHomework()}
