@@ -1,0 +1,48 @@
+.app-container {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #6a11cb, #307bfd);
+  color: white;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.switch-button {
+  background-color: #ffffff;
+  color: #6807cf;
+  border: 3px solid #ffffff;;
+  padding: 10px 20px;
+  font-size: 16px;
+  
+  border-radius: 6px;
+  cursor: pointer;
+  
+   transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Светлая тень */
+  -webkit-backdrop-filter: blur(4px); /* Эффект стекла */
+    backdrop-filter: blur(4px); /* Эффект стекла */
+}
+
+.switch-button:hover {
+   background: linear-gradient(135deg, #9827ef, #6a11cb); /* Фиолетовый градиент */
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(152, 39, 239, 0.5);
+}
+.switch-button:active {
+  background: linear-gradient(135deg, #7a1fc0, #4c0cae); /* Темнее при нажатии */
+  box-shadow: 0 2px 6px rgba(152, 39, 239, 0.3);
+  transform: translateY(1px);
+}
+
+.language-text {
+  margin-top: 20px;
+  font-size: 22px;
+}
+.language-text.en {
+  color: #6807cf;
+  font-size: 14px;
+}
+
+
+
