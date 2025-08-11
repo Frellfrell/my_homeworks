@@ -14,6 +14,7 @@ import UserProfile from './homework6/UserProfile';
 import SwitchLanguageApp from './homework7/SwitchLanguageApp';
 import PerformanceApp from './homework8/Performance-app';
 import Homework9 from './homework9/Homework9';
+import CatImage from './homework10/CatImage';
 
 function App() {
   const [activeHomework, setActiveHomework] = useState('homework3');
@@ -43,10 +44,12 @@ function App() {
       return <UserProfile />;
       case 'homework7':
         return <SwitchLanguageApp />; 
-      case 'homework8':
-  return <PerformanceApp />;
+    case 'homework8':
+      return <PerformanceApp />;
   case 'homework9':
-  return <Homework9 />;
+    return <Homework9 />;
+   case 'catApp': 
+        return <CatImage />;
       default:
         return <p>Выберите домашнее задание</p>;
        
@@ -73,6 +76,7 @@ return (
         <option value="homework7">homework 7 Switch Language</option>
         <option value="homework8">homework 8 Performance App</option>
         <option value="homework9">homework 9 Dynamic Form</option>
+        <option value="catApp">🐱 Cat Image App</option>
       </select>
 
       {renderHomework()}
