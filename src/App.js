@@ -12,6 +12,8 @@ import CoolJob from './homework5/CoolJob';
 import Hw5Spotifycard from './homework5_1/Hw5Spotifycard';
 import UserProfile from './homework6/UserProfile';
 import SwitchLanguageApp from './homework7/SwitchLanguageApp';
+import PerformanceApp from './homework8/Performance-app';
+import Homework9 from './homework9/Homework9';
 
 function App() {
   const [activeHomework, setActiveHomework] = useState('homework3');
@@ -41,6 +43,10 @@ function App() {
       return <UserProfile />;
       case 'homework7':
         return <SwitchLanguageApp />; 
+      case 'homework8':
+  return <PerformanceApp />;
+  case 'homework9':
+  return <Homework9 />;
       default:
         return <p>Выберите домашнее задание</p>;
        
@@ -65,6 +71,8 @@ return (
         <option value="homework5_1">homework 5.1 Spotify Card</option>
         <option value="homework6">homework 6 User Profile</option>
         <option value="homework7">homework 7 Switch Language</option>
+        <option value="homework8">homework 8 Performance App</option>
+        <option value="homework9">homework 9 Dynamic Form</option>
       </select>
 
       {renderHomework()}
